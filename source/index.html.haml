@@ -6,5 +6,8 @@ title: "Spamy"
 ---
 
 - content_for :content do
-  :markdown
-    # Spamy
+  %h1 Spamy
+
+  - data.andand.emails.each do |email|
+    :markdown
+      [#{email.title}](mailto:#{email.address} "#{email.title}")

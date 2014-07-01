@@ -16,10 +16,11 @@ Installation
 Usage
 -----
 
-### Boot up [Middleman](http://middlemanapp.com "Middleman: Hand-crafted frontend development")
+1. Edit `data/emails.yml`
+
+2. Boot up [Middleman](http://middlemanapp.com "Middleman: Hand-crafted frontend development")
 
 ```
-$ cd vault/spamy
 $ middleman
 ```
 

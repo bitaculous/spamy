@@ -16,7 +16,7 @@ Installation
 Usage
 -----
 
-1. Edit `data/emails.yml`
+1. Copy `data/emails.sample.yml` to `data/emails.yml` and adjust properly
 
 2. Boot up [Middleman](http://middlemanapp.com "Middleman: Hand-crafted frontend development")
 

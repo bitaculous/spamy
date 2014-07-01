@@ -4,7 +4,7 @@
 **A simple email address encoder.**
 
 Spamy is a tiny [Middleman](http://middlemanapp.com "Middleman: Hand-crafted frontend development") project to encode
-e-mail addresses through the use of character entities.
+e-mail addresses through the use of character entities for your copy-and-paste-pleasure™.
 
 Installation
 ------------

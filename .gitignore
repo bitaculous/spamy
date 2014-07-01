@@ -12,3 +12,6 @@ bin
 
 # Ignore build directory
 build
+
+# Ignore `emails.yml`
+data/emails.yml

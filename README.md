@@ -6,6 +6,8 @@
 Spamy is a tiny [Middleman](http://middlemanapp.com "Middleman: Hand-crafted frontend development") project to encode
 e-mail addresses through the use of character entities for your copy-and-paste-pleasure™.
 
+[![Gemnasium Status](https://gemnasium.com/bitaculous/spamy.svg)](https://gemnasium.com/bitaculous/spamy)
+
 Installation
 ------------
 

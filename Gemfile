@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 
 group :default do
   group :middleman do
-    gem 'middleman',             '~> 3.3.4'
+    gem 'middleman',             '~> 3.3.5'
     gem 'middleman-wundertuete', github: 'bitaculous/middleman-wundertuete'
   end
 
@@ -12,8 +12,8 @@ group :default do
     gem 'assetify', github: 'bitaculous/assetify'
 
     group :stylesheets do
-      gem 'compass', '~> 1.0.0.alpha.21'
-      # gem 'compass', github: 'compass/compass', branch: 'master'
+      gem 'compass', '~> 1.0.1'
+      # gem 'compass', github: 'compass/compass', branch: 'stable'
     end
   end
 

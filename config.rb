@@ -22,6 +22,3 @@ after_configuration do
     ugly: false
   }
 end
-
-# Ignore `favicon.png`
-ignore 'assets/favicon.png'

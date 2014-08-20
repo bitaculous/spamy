@@ -130,6 +130,5 @@ PLATFORMS
 DEPENDENCIES
   andand (~> 1.3.3)
   assetify!
-  compass (~> 1.0.1)
   middleman (~> 3.3.5)
   middleman-wundertuete!

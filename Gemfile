@@ -10,11 +10,6 @@ group :default do
 
   group :assets do
     gem 'assetify', github: 'bitaculous/assetify'
-
-    group :stylesheets do
-      gem 'compass', '~> 1.0.1'
-      # gem 'compass', github: 'compass/compass', branch: 'stable'
-    end
   end
 
   group :misc do

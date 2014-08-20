@@ -1,6 +1,6 @@
 !!! 5
 %html.no-js{ lang: 'en' }
-  = partial 'layouts/shared/head'
+  = partial 'partials/shared/head'
 
   %body{ id: current_page.data['id'], class: "#{current_page.data['class'] || 'default'} canvas" }
     = yield_content :content

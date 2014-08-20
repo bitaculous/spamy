@@ -3,7 +3,7 @@
 
 **A simple email address encoder.**
 
-Spamy is a tiny  project to encode [Middleman] e-mail addresses through the use of character entities for your
+Spamy is a tiny [Middleman] project to encode e-mail addresses through the use of character entities for your
 copy-and-paste-pleasure™.
 
 [![Gemnasium Status][Gemnasium Status]][Gemnasium]
@@ -33,8 +33,8 @@ License
 
 Spamy is released under the [MIT License (MIT)], see [LICENSE].
 
-[Gemnasium Status]: http://img.shields.io/gemnasium/bitaculous/spamy.svg?style=flat "Gemnasium Status"
 [Gemnasium]: https://gemnasium.com/bitaculous/spamy "Spamy at Gemnasium"
+[Gemnasium Status]: http://img.shields.io/gemnasium/bitaculous/spamy.svg?style=flat "Gemnasium Status"
 [LICENSE]: https://raw.githubusercontent.com/bitaculous/spamy/master/LICENSE "License"
 [Middleman]: http://middlemanapp.com "Hand-crafted frontend development"
 [MIT License (MIT)]: http://opensource.org/licenses/MIT "The MIT License (MIT)"

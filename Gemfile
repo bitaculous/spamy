@@ -3,16 +3,18 @@
 source 'https://rubygems.org'
 
 group :default do
-  group :middleman do
-    gem 'middleman',             '~> 3.3.6'
-    gem 'middleman-wundertuete', github: 'bitaculous/middleman-wundertuete'
-  end
+  # === Middleman ===
 
-  group :assets do
-    gem 'assetify', github: 'bitaculous/assetify'
-  end
+  gem 'middleman',             '~> 3.3.6'
+  gem 'middleman-wundertuete', github: 'bitaculous/middleman-wundertuete'
 
-  group :misc do
-    gem 'andand', '~> 1.3.3'
-  end
+  # === Assets ===
+
+  gem 'assetify', github: 'bitaculous/assetify'
+
+  gem 'therubyracer', '~> 0.12.1', require: RUBY_PLATFORM.include?('linux') && 'v8'
+
+  # === Misc ===
+
+  gem 'andand', '~> 1.3.3'
 end

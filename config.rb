@@ -7,6 +7,14 @@ set :js_dir,     'assets/javascripts'
 
 page '*', layout: 'default'
 
+configure :development do
+  require 'middleman-livereload'
+
+  activate :livereload
+
+  set :debug_assets, true
+end
+
 configure :build do # Build-specific configuration
   # activate :relative_assets
   activate :asset_hash, ignore: %r{^*fonts/.*}
